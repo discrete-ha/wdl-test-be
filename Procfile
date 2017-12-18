@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT main-api:app/routes
+web: python app/routes.py
